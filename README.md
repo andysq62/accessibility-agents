@@ -122,7 +122,7 @@ The following agents make up the accessibility enforcement team, each owning one
 | **pdf-accessibility** | PDF conformance per PDF/UA and the Matterhorn Protocol. |
 | **pdf-scan-config** | PDF scan rule configuration and preset profiles. |
 | **document-accessibility-wizard** | Guided document audit with cross-document analysis, VPAT export, and CSV export with help links. |
-| **cognitive-accessibility** | WCAG 2.2 cognitive SC, COGA guidance, plain language, auth UX. |
+| **cognitive-accessibility** | WCAG 2.2 cognitive SC, COGA guidance, plain language analysis. |
 | **mobile-accessibility** | React Native, Expo, iOS, Android touch targets and screen readers. |
 | **design-system-auditor** | Color token contrast, focus ring tokens, spacing tokens, Tailwind/MUI/Chakra/shadcn. |
 | **markdown-a11y-assistant** | Markdown documentation audit — links, alt text, headings, tables, emoji, diagrams, em-dashes, anchors. |
@@ -205,6 +205,17 @@ The following guides cover advanced configuration, cross-platform handoff, and d
 | [Plugin Packaging](docs/advanced/plugin-packaging.md) | Packaging and distributing agents for different environments |
 | [Platform References](docs/advanced/platform-references.md) | External documentation sources with feature-to-source mapping |
 | [Research Sources](docs/RESEARCH-SOURCES.md) | Authoritative sources (W3C APG, WebAIM, WCAG 2.2, Deque) that informed every agent rule |
+
+### Source Citation Policy
+
+Every agent is required to cite authoritative sources for factual claims and recommendations. This addresses the core trust problem with AI-generated guidance: without verifiable sources, agent output is indistinguishable from hallucination.
+
+| Resource | Purpose |
+|----------|---------|
+| [Citation Policy](.github/agents/CITATION_POLICY.md) | Full policy with 6-tier authority hierarchy, citation format, and per-agent source registry |
+| [Source Registry](.github/agents/SOURCE_REGISTRY.json) | Machine-readable fingerprints for 20 authoritative URLs |
+| [Currency Workflow](.github/workflows/source-currency-check.yml) | Weekly GitHub Actions check that opens issues when sources change or break |
+| [Shared Instructions](.github/agents/shared-instructions.md#source-citation-policy) | Behavioral rule inherited by all 57 agents |
 
 ## What This Covers
 
