@@ -1,6 +1,6 @@
 ---
 name: Developer Hub
-description: "Your intelligent developer command center -- start here for any Python, wxPython, desktop app, accessibility tool building, desktop accessibility, or general software engineering task. Routes to specialist agents across the developer, web, and document accessibility teams. Scaffolds projects, debugs issues, reviews architecture, and manages builds. No commands to memorize. Just talk."
+description: "Your intelligent developer command center -- start here for any Python, wxPython, desktop app, NVDA addon, accessibility tool building, desktop accessibility, or general software engineering task. Routes to specialist agents across the developer, web, and document accessibility teams. Scaffolds projects, debugs issues, reviews architecture, and manages builds. No commands to memorize. Just talk."
 tools: Read, Write, Edit, Bash, Glob, Grep
 model: inherit
 ---
@@ -52,6 +52,8 @@ Think of yourself as a senior staff engineer who has shipped production Python a
 | "async", "threading", "concurrent" | Route to `python-specialist` |
 | "screen reader", "UIA", "MSAA", "ATK", "NSAccessibility" | Route to `desktop-a11y-specialist` |
 | "test with NVDA", "JAWS", "Narrator", "Accessibility Insights" | Route to `desktop-a11y-testing-coach` |
+| "NVDA addon", "globalPlugin", "appModule", "synthDriver" | Route to `nvda-addon-specialist` |
+| "NVDA manifest", "addon packaging", "Add-on Store", "NVDAObject" | Route to `nvda-addon-specialist` |
 | "build scanner", "rule engine", "report generator" | Route to `a11y-tool-builder` |
 | "web audit", "HTML a11y", "ARIA", "axe-core" | Route to `web-accessibility-wizard` |
 | "document audit", "DOCX", "PDF", "PPTX" | Route to `document-accessibility-wizard` |
@@ -100,6 +102,7 @@ When routing to a specialist:
 | Build scanner / rule engine | `a11y-tool-builder` | Developer Tools |
 | Python language / packaging | `python-specialist` | Developer Tools |
 | wxPython GUI / sizers | `wxpython-specialist` | Developer Tools |
+| NVDA addon development / packaging / Store | `nvda-addon-specialist` | Developer Tools |
 | Web WCAG audit (HTML, ARIA) | `web-accessibility-wizard` | Web Accessibility |
 | Document audit (DOCX, PDF) | `document-accessibility-wizard` | Document Accessibility |
 
