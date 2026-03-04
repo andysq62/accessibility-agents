@@ -22,9 +22,9 @@ AI coding tools generate inaccessible code by default. They forget ARIA rules, s
 
 ## The Solution
 
-**Accessibility Agents** provides fifty-five specialized agents across three teams and five platforms:
+**Accessibility Agents** provides fifty-six specialized agents across three teams and five platforms:
 
-- **Accessibility team** — twenty-six agents that enforce WCAG AA standards for web code, Office/PDF/ePub documents, and Markdown documentation
+- **Accessibility team** — twenty-seven agents that enforce WCAG AA standards for web code, Office/PDF/ePub documents, and Markdown documentation
 - **GitHub Workflow team** — twelve agents that manage repositories, triage issues, review PRs, and keep your team informed
 - **Developer Tools team** — six agents for Python, wxPython, desktop accessibility, and accessibility tool building
 
@@ -111,7 +111,8 @@ The following agents make up the accessibility enforcement team, each owning one
 | **alt-text-headings** | Alt text, SVGs, icons, heading hierarchy, landmarks, page titles. |
 | **tables-data-specialist** | Table markup, scope, caption, headers, sortable columns, ARIA grids. |
 | **link-checker** | Ambiguous link text, "click here" detection, missing new-tab warnings. |
-| **accessibility-wizard** | Interactive guided web audit across all eleven accessibility domains. |
+| **text-quality-reviewer** | Non-visual text quality: template variables, code syntax, placeholders, and typos in alt text and ARIA labels. |
+| **accessibility-wizard** | Interactive guided web audit across all twelve accessibility domains. |
 | **testing-coach** | Screen reader testing, keyboard testing, automated testing guidance. |
 | **wcag-guide** | WCAG 2.2 criteria in plain language, conformance levels, what changed. |
 | **word-accessibility** | Microsoft Word (DOCX) document accessibility scanning. |
