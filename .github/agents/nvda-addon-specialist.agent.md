@@ -271,7 +271,7 @@ class SynthDriver(SynthDriver):
 
 Key methods: `name`, `description`, `check()`, `numCells`, `display(cells)`, `getManualPorts()`, `getPossiblePorts()`.
 
-**Source:** [`braille/`](https://github.com/nvaccess/nvda/tree/master/source/braille)
+**Source:** [`braille/`](https://github.com/nvaccess/nvda/tree/master/source/brailleDisplayDrivers)
 
 ---
 
